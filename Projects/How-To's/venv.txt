@@ -1,0 +1,12 @@
+python -m venv env_name
+"with python (may need to use python3 if mult python installed), use module venv, name it env_name"
+
+then use the new environment as the interpreter
+
+to activate the new environment to be used with the terminal, go to command pallete and type (python create terminal)
+
+On github there is an ubuntuEnv and my_environment (for windows)
+
+You can use the ubuntuEnv on Pycharm or vscode.
+    Settings have to do with the interpreter, and using an existing env from the python file in the venv
+    You know you have it right when the terminal shows the venv your using.

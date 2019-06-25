@@ -1,0 +1,13 @@
+The Terminal window will begin in the home folder of your user account.
+If my username is asweigart, the home folder will be /Users/asweigart on OSX and /home/asweigart on Linux.
+The tilde (~) character is a shortcut for your home folder, so you can enter cd ~ to change to your home folder.
+You can also use the cd command to change the current working directory to any other directory.
+On both OS X and Linux, the pwd command will print the current working directory.
+
+To run your Python programs, save your .py file to your home folder.
+Then, change the .py file’s permissions to make it executable by running chmod +x pythonScript.py.
+File permissions are beyond the scope of this book, but you will need to run this command on your Python file if you want to run the program from the Terminal window.
+Once you do so, you will be able to run your script whenever you want by opening a Terminal window and entering ./pythonScript.py.
+The shebang line at the top of the script will tell the operating system where to locate the Python interpreter.
+
+The #! should be followed by the home directory location of the python your using. Use "which python" to find this location.
