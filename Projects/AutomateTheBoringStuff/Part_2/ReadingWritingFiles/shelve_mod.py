@@ -1,4 +1,4 @@
-# You can sve variables in your python programs to binary shelf files
+# You can save variables in your python programs to binary shelf files
 # Therefore your program can restore data to variables from the hard drive
 
 import shelve

@@ -10,8 +10,12 @@ count = {}
 for character in message:
     count.setdefault(character, 0)
     count[character] = count[character] + 1
-
+# will pprint
 pprint.pprint(count)
 
-# pprint.pprint(someDictValue) == print(pprint.pformat(someDictValue))
+# without pprint
+print(count)
+
+
+# pprint.pprint(someDictValue) is the same as print(pprint.pformat(someDictValue))
 
